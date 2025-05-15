@@ -1,0 +1,20 @@
+<table>
+    <thead>
+        <th>id</th>
+        <th>name</th>
+        <th>email</th>
+        <th>job</th>
+        <th>age</th>
+        <th>salary</th>
+        <th>skills</th>
+    </thead>
+    <tbody *ngFor="let developer of developers">
+        <td>{{developer.id}}</td>
+        <td>{{developer.name}}</td>
+        <td>{{developer.email}}</td>
+        <td>{{developer.job}}</td>
+        <td>{{developer.age}}</td>
+        <td>{{developer.salary}}</td>
+        <td>{{developer.skills}}</td>
+    </tbody>
+</table>

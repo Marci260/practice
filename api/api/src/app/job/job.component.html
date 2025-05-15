@@ -1,0 +1,12 @@
+<table>
+    <thead>
+        <th> id </th>
+        <th> name </th>
+        <th> description </th>
+    </thead>
+    <tbody *ngFor="let job of jobs ">
+        <td>{{job.id}}</td>
+        <td>{{job.name}}</td>
+        <td>{{job.description}}</td>
+    </tbody>
+</table>
