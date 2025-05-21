@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fullstack-Workshop-03</title>
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="container my-4">
+  <h2>Fejlesztők listája</h2>
+  <table class="table table-striped table-bordered align-middle">
+    <thead class="table-dark">
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Job</th>
+        <th>Age</th>
+        <th>Salary (Ft)</th>
+      </tr>
+    </thead>
+    <tbody id="developersTableBody">
+      <!-- Ide jönnek a sorok JS-ből -->
+    </tbody>
+  </table>
+</div>
+
+    <div id="calculations">
+        <p>
+            Mennyi az átlagéletkor?
+            <span id="Q1"></span>
+        </p>
+        <p>
+            Mennyi az átlagfizetés a frontendesek között?
+            <span id="Q2"></span>
+        </p>
+        <p>
+            Ki ért a legtöbb mindenhez?
+            <span id="Q3"></span>
+        </p>
+        <p>
+            Melyik cégből dolgozik a legtöbb ember?
+            <span id="Q4"></span>
+        </p>
+        <p>
+            Ki a legfiatalabb fejlesztő és mennyit keres ő?
+            <span id="Q5"></span>
+        </p>
+        <p>
+            Mekkora a különbség fizetésben a legfiatalabb és legidősebb fejlesztő között?
+            <span id="Q6"></span>
+        </p>
+        <p>
+            Munkakörönként csoportosítva mennyi az átlagfizetés?
+            <span id="Q7"></span>
+        </p>
+    </div>
+
+    <div id="table-target"></div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

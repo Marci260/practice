@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Contact</title>
+</head>
+<body>
+<Table>
+        <thead>
+            <tr><a href="../index.html"> Főoldal </a></tr>
+            <tr><a href="./service.html"> Szolgáltatások </a></tr>
+            <tr><a href="./subjects.html"> Tárgyak </a></tr>
+            <tr><a href="./students.html"> Hallgatók </a></tr>
+            <tr><a href="./merch.html"> Merch-shop </a></tr>
+            <tr><a href="./contact.html"> Kapcsolat </a></tr>
+            <tr><a href="./problem.html"> Probléma bejelentés </a></tr>
+        </thead>
+    </Table>
+
+   <form>
+    <label for="name">Teljes név:</label>
+    <input type="text" id="name" name="name" placeholder="Írja be a teljes nevét">
+
+    <label for="email">Email cím:</label>
+    <input type="email" id="email" name="email" placeholder="pl: nev@example.com">
+
+    <label>Ön:</label>
+    <div class="radio-group">
+      <input type="radio" id="hallgato" name="status" value="hallgato">
+      <label for="hallgato">Hallgató</label>
+      <input type="radio" id="oktato" name="status" value="oktato">
+      <label for="oktato">Oktató</label>
+      <input type="radio" id="kulso" name="status" value="kulso">
+      <label for="kulso">Külsős személy</label>
+    </div>
+
+    <label for="subject">Üzenet tárgya:</label>
+    <input type="text" id="subject" name="subject" placeholder="Írja be az üzenet tárgyát">
+
+    <label for="message">Üzenet szövege:</label>
+    <textarea id="message" name="message" rows="5" placeholder="Írja be az üzenetét"></textarea>
+
+    <button type="submit">Elküld</button>
+  </form>
+
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13444.283493381907!2d19.0402353!3d47.497912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc214a7199cf%3A0x400c4290c1e3b30!2zQsO8ZGFwZXN0aSBFZGVt!5e0!3m2!1shu!2shu!4v1688655096792!5m2!1shu!2shu" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</body>
+</html>

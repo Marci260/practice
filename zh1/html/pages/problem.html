@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Problem</title>
+</head>
+<body>
+    <Table>
+        <thead>
+            <tr><a href="../index.html"> Főoldal </a></tr>
+            <tr><a href="./service.html"> Szolgáltatások </a></tr>
+            <tr><a href="./subjects.html"> Tárgyak </a></tr>
+            <tr><a href="./students.html"> Hallgatók </a></tr>
+            <tr><a href="./merch.html"> Merch-shop </a></tr>
+            <tr><a href="./contact.html"> Kapcsolat </a></tr>
+            <tr><a href="./problem.html"> Probléma bejelentés </a></tr>
+        </thead>
+    </Table>
+    <form>
+    <label for="problem-email">Email cím:</label>
+    <input type="email" id="problem-email" name="problem-email" placeholder="pl: nev@example.com">
+
+    <label>Kérek értesítést:</label>
+    <div class="radio-group">
+      <input type="radio" id="ertesites-igen" name="ertesites" value="igen">
+      <label for="ertesites-igen">Igen</label>
+      <input type="radio" id="ertesites-nem" name="ertesites" value="nem">
+      <label for="ertesites-nem">Nem</label>
+    </div>
+
+    <label for="bejelentes-tipus">Bejelentés típusa:</label>
+    <select id="bejelentes-tipus" name="bejelentes-tipus">
+      <option value="altalanos">Általános bejelentés</option>
+      <option value="pozitiv">Pozitív véleményt kívánok tenni</option>
+      <option value="panasz">Panaszt kívánok tenni</option>
+    </select>
+
+    <label for="problem-subject">Üzenet tárgya:</label>
+    <input type="text" id="problem-subject" name="problem-subject" placeholder="Írja be az üzenet tárgyát">
+
+    <label for="problem-message">Üzenet szövege:</label>
+    <textarea id="problem-message" name="problem-message" rows="5" placeholder="Írja be az üzenetét"></textarea>
+
+    <button type="submit">Elküld</button>
+  </form>
+
+</body>
+</html>
